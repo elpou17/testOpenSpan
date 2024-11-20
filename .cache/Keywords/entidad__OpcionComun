@@ -1,0 +1,126 @@
+{
+  "keywordFileContentHash": "AF1F55D6ACA1C339934861A9A00207F8",
+  "keywordClasses": [
+    {
+      "name": "entidad.OpcionComun",
+      "keywordMethods": [
+        {
+          "name": "darClick",
+          "parameters": [
+            {
+              "name": "object",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**  Método: darClick\r\n\t * * @params TestObject, Object.\r\n\t * * Ejemplo:N/A\r\n\t * * Verificar que exista un Elemento y luego dar clic.\r\n\t * * @return Click\r\n\t * * @author Miguel Pou\r\n\t * * @since 03/09/2020\r\n\t * * @author_Modified Ingeniero Miguel Pou\r\n\t * * @since_Modified N/a\r\n\t * * @comment_Modified\r\n\t * * N/A.\r\n\t * * N/A. */"
+        },
+        {
+          "name": "escribirTexto",
+          "parameters": [
+            {
+              "name": "object",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "string2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**  Método: escribirTexto\r\n\t * * @params TestObject object, String string2.\r\n\t * * Ejemplo: N/A\r\n\t * * Verificar que exista un Elemento y luego escribe.\r\n\t * * @return Click\r\n\t * * @author Miguel Pou\r\n\t * * @since 03/09/2020\r\n\t * * @author_Modified Miguel Pou\r\n\t * * @since_Modified N/a\r\n\t * * @comment_Modified\r\n\t * * N/A.\r\n\t * * N/A. */"
+        },
+        {
+          "name": "escribirTextoEncriptado",
+          "parameters": [
+            {
+              "name": "object",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "string2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**  Método: escribirTextoEncriptado\r\n\t * * @params TestObject, Object, String string2.\r\n\t * * Ejemplo: N/A\r\n\t * * Verificar que exista un Elemento y luego escribe texto Encriptado.\r\n\t * * @return Valor\r\n\t * * @author Miguel Pou\r\n\t * * @since 03/09/2020\r\n\t * * @author_Modified Ingeniero Miguel Pou\r\n\t * * @since_Modified N/a\r\n\t * * @comment_Modified\r\n\t * * N/A.\r\n\t * * N/A. */"
+        },
+        {
+          "name": "Alerta",
+          "parameters": [
+            {
+              "name": "object",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "string2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
