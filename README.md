@@ -23,12 +23,19 @@ Dentro del flujo de autentificación y compra cada validación que se haga a un 
 El testcase debe de tener validación para cada pantalla y screenshots a la cual se mueva, por ejemplo (Si entra al carrito debe de validar que la pantalla a la cual se accedió sea la del carrito y no a otra.)
 
 Los productos a comprar son:
+
   a. Beverages:
+  
     i. 1 unidad de Ipoh Coffee.
+    
     ii. 1 unidad de Outback Lager.
+    
     iii. 1 unidad de Chai.
+    
   b. Seasonings
+  
     i. 1 unidad de Genen Shouyu.
+    
     ii. 1 unidad de Guia Malacca.
 
 Al finalizar la ejecución del testcase debe de generar el reporte, en el cual se visualizara todos los pasos realizados, capturas de pantalla, testo de verificación exitoso o fallido.
