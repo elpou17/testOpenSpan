@@ -108,12 +108,5 @@ public class OpcionComun {
 			WebUI.setEncryptedText(object, string2)
 		}
 	}
-
-	@Keyword
-	public void Alerta(TestObject object, String string2) {
-		if(WebUI.verifyElementPresent (object, 3, FailureHandling.STOP_ON_FAILURE) == true) {
-			WebUI.acceptAlert()(string2)
-		}
-	}
 }
 
