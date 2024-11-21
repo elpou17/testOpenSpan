@@ -108,5 +108,11 @@ public class OpcionComun {
 			WebUI.setEncryptedText(object, string2)
 		}
 	}
-}
+ }
+
+ # Notas
+
+ Estos metodos pueden ser realizado de diferentes formas dependiendo de la logica que usted use.
+
+ 
 
