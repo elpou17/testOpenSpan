@@ -41,3 +41,79 @@ Los productos a comprar son:
 Al finalizar la ejecución del testcase debe de generar el reporte, en el cual se visualizara todos los pasos realizados, capturas de pantalla, testo de verificación exitoso o fallido.
 
 
+# Metodos
+
+public class OpcionComun {
+
+	/**  Método: darClick
+	 * * @params TestObject, Object.
+	 * * Ejemplo:N/A
+	 * * Verificar que exista un Elemento y luego dar clic.
+	 * * @return Click
+	 * * @author Miguel Pou
+	 * * @since 03/09/2020
+	 * * @author_Modified Ingeniero Miguel Pou
+	 * * @since_Modified N/a
+	 * * @comment_Modified
+	 * * N/A.
+	 * * N/A. */
+  
+	@Keyword
+	def darClick(TestObject object) {
+		if(WebUI.verifyElementPresent (object, 3, FailureHandling.STOP_ON_FAILURE) == true) {
+			WebUI.click(object)
+		}
+	}
+
+ Escribir Texto
+ 
+	/**  Método: escribirTexto
+	 * * @params TestObject object, String string2.
+	 * * Ejemplo: N/A
+	 * * Verificar que exista un Elemento y luego escribe.
+	 * * @return Click
+	 * * @author Miguel Pou
+	 * * @since 03/09/2020
+	 * * @author_Modified Miguel Pou
+	 * * @since_Modified N/a
+	 * * @comment_Modified
+	 * * N/A.
+	 * * N/A. */
+  
+ 	@Keyword
+	public void escribirTexto(TestObject object, String string2) {
+		if(WebUI.verifyElementPresent (object, 3, FailureHandling.STOP_ON_FAILURE) == true) {
+			WebUI.setText(object, string2)
+		}
+	}
+
+ Escribir texto encriptado
+
+ /**  Método: escribirTextoEncriptado
+	 * * @params TestObject, Object, String string2.
+	 * * Ejemplo: N/A
+	 * * Verificar que exista un Elemento y luego escribe texto Encriptado.
+	 * * @return Valor
+	 * * @author Miguel Pou
+	 * * @since 03/09/2020
+	 * * @author_Modified Ingeniero Miguel Pou
+	 * * @since_Modified N/a
+	 * * @comment_Modified
+	 * * N/A.
+	 * * N/A. */
+
+	@Keyword
+	public void escribirTextoEncriptado(TestObject object, String string2) {
+		if(WebUI.verifyElementPresent (object, 3, FailureHandling.STOP_ON_FAILURE) == true) {
+			WebUI.setEncryptedText(object, string2)
+		}
+	}
+
+	@Keyword
+	public void Alerta(TestObject object, String string2) {
+		if(WebUI.verifyElementPresent (object, 3, FailureHandling.STOP_ON_FAILURE) == true) {
+			WebUI.acceptAlert()(string2)
+		}
+	}
+}
+
