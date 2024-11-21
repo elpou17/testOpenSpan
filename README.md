@@ -89,7 +89,7 @@ public class OpcionComun {
 
  Escribir texto encriptado
 
- /**  Método: escribirTextoEncriptado
+ 	/**  Método: escribirTextoEncriptado
 	 * * @params TestObject, Object, String string2.
 	 * * Ejemplo: N/A
 	 * * Verificar que exista un Elemento y luego escribe texto Encriptado.
