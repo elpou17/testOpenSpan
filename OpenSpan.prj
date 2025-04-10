@@ -4,12 +4,9 @@
    <name>OpenSpan</name>
    <tag></tag>
    <UUID>4a57acbb-59fd-4af5-aaeb-e2ad55a9a720</UUID>
-   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>FREE</modifiedEdition>
-   <modifiedVersion>10.0.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\Miguel Pou\Desktop\Proyectos\Grupo Babel\Clientes\BHD\Otos\Open Span BHD\Proyecto\OpenSpan\OpenSpan.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\miguel.pou\Desktop\Proyectos\Open Span BHD\Proyecto\OpenSpan\OpenSpan.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
@@ -28,6 +25,5 @@
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
-   <timeStampInProperties>true</timeStampInProperties>
    <type>WEBUI</type>
 </Project>
